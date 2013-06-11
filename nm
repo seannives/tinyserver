@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# USAGE: ./nm server.js
+# https://github.com/remy/nodemon for details
+
+./node_modules/nodemon/nodemon.js -e js,css,html --watch server.js --watch public $1
